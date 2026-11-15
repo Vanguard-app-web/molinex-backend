@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Commercial.InquiryNotFound" xml:space="preserve"><value>No se encontró la solicitud comercial.</value></data>
+  <data name="Commercial.InvalidCompanyName" xml:space="preserve"><value>El nombre de la empresa es obligatorio.</value></data>
+  <data name="Commercial.InvalidEmail" xml:space="preserve"><value>Se requiere un correo electrónico válido.</value></data>
+  <data name="Commercial.InvalidFullName" xml:space="preserve"><value>El nombre completo es obligatorio.</value></data>
+  <data name="Commercial.InvalidMessage" xml:space="preserve"><value>El mensaje es obligatorio.</value></data>
+  <data name="Iam.AdministratorAlreadyRegistered" xml:space="preserve"><value>Ya existe una cuenta registrada.</value></data>
+  <data name="Iam.InvalidCredentials" xml:space="preserve"><value>Las credenciales son inválidas.</value></data>
+  <data name="Iam.InvalidUserData" xml:space="preserve"><value>Se requiere un correo válido y una contraseña de al menos 12 caracteres.</value></data>
+  <data name="Maintenance.CorrectiveDetailsRequired" xml:space="preserve"><value>El mantenimiento correctivo requiere falla y causa (hasta 250 caracteres), acción realizada (hasta 500) y minutos de inactividad.</value></data>
+  <data name="Maintenance.DuplicateMachineCode" xml:space="preserve"><value>Este código de máquina ya está en uso.</value></data>
+  <data name="Maintenance.InvalidAnomalyReference" xml:space="preserve"><value>La referencia de anomalía no puede superar los 100 caracteres.</value></data>
+  <data name="Maintenance.InvalidDescription" xml:space="preserve"><value>La descripción es obligatoria y no puede superar los 500 caracteres.</value></data>
+  <data name="Maintenance.InvalidDowntime" xml:space="preserve"><value>Los minutos de inactividad deben ser un entero mayor o igual que cero.</value></data>
+  <data name="Maintenance.InvalidMachineCode" xml:space="preserve"><value>El código de máquina es obligatorio y no puede superar los 30 caracteres.</value></data>
+  <data name="Maintenance.InvalidMachineModel" xml:space="preserve"><value>El modelo de la máquina es obligatorio y no puede superar los 100 caracteres.</value></data>
+  <data name="Maintenance.InvalidMachineName" xml:space="preserve"><value>El nombre de la máquina es obligatorio y no puede superar los 100 caracteres.</value></data>
+  <data name="Maintenance.InvalidMachineStatus" xml:space="preserve"><value>El estado debe ser OPERATIONAL, REQUIRES_ATTENTION, UNDER_MAINTENANCE u OUT_OF_SERVICE.</value></data>
+  <data name="Maintenance.InvalidMaintenanceDate" xml:space="preserve"><value>La fecha del mantenimiento es obligatoria.</value></data>
+  <data name="Maintenance.InvalidMaintenanceType" xml:space="preserve"><value>El tipo de mantenimiento debe ser PREVENTIVE o CORRECTIVE.</value></data>
+  <data name="Maintenance.InvalidTechnician" xml:space="preserve"><value>El nombre del técnico es obligatorio y no puede superar los 100 caracteres.</value></data>
+  <data name="Maintenance.MachineNotFound" xml:space="preserve"><value>No se encontró la máquina.</value></data>
+  <data name="Maintenance.PreventiveWithFailureDetails" xml:space="preserve"><value>El mantenimiento preventivo no puede incluir detalles de falla.</value></data>
+  <data name="Maintenance.RecordNotFound" xml:space="preserve"><value>No se encontró el registro de mantenimiento.</value></data>
+  <data name="Maintenance.StatusChangeDateRequired" xml:space="preserve"><value>La fecha del cambio de estado es obligatoria.</value></data>
+  <data name="Production.BatchChangeNotAllowed" xml:space="preserve"><value>Un registro de producción no puede moverse a otro lote.</value></data>
+  <data name="Production.BatchNotFound" xml:space="preserve"><value>No se encontró el lote de producción.</value></data>
+  <data name="Production.CompletedRequiresFinishDate" xml:space="preserve"><value>Un proceso completado requiere su fecha de finalización.</value></data>
+  <data name="Production.DuplicateBatchCode" xml:space="preserve"><value>Este código de lote ya está en uso.</value></data>
+  <data name="Production.InvalidBatchCode" xml:space="preserve"><value>El código de lote es obligatorio y no puede superar los 50 caracteres.</value></data>
+  <data name="Production.InvalidMaterialOrigin" xml:space="preserve"><value>El origen del material es obligatorio y no puede superar los 150 caracteres.</value></data>
+  <data name="Production.InvalidProcessName" xml:space="preserve"><value>El nombre del proceso es obligatorio y no puede superar los 100 caracteres.</value></data>
+  <data name="Production.InvalidProductionPeriod" xml:space="preserve"><value>La fecha de inicio es obligatoria y la de finalización no puede ser anterior.</value></data>
+  <data name="Production.InvalidProductionStatus" xml:space="preserve"><value>El estado debe ser PENDING, IN_PROGRESS, COMPLETED o CANCELLED.</value></data>
+  <data name="Production.InvalidReceptionDate" xml:space="preserve"><value>La fecha de recepción es obligatoria y no puede ser futura.</value></data>
+  <data name="Production.InvalidRegistrationDate" xml:space="preserve"><value>La fecha de registro del lote es obligatoria.</value></data>
+  <data name="Production.InvalidSupplier" xml:space="preserve"><value>El proveedor es obligatorio y no puede superar los 100 caracteres.</value></data>
+  <data name="Production.ReceptionNotFound" xml:space="preserve"><value>No se encontró la recepción de materia prima.</value></data>
+  <data name="Production.RecordNotFound" xml:space="preserve"><value>No se encontró el registro de producción.</value></data>
+  <data name="Production.StartDateChangeNotAllowed" xml:space="preserve"><value>La fecha de inicio de un registro de producción no puede cambiarse.</value></data>
+  <data name="Quality.AssessmentNotFound" xml:space="preserve"><value>No se encontró la evaluación de calidad.</value></data>
+  <data name="Quality.DuplicateIndicator" xml:space="preserve"><value>Cada indicador de calidad solo puede medirse una vez.</value></data>
+  <data name="Quality.GrainCompositionExceeded" xml:space="preserve"><value>El grano entero más el grano quebrado no puede superar el 100 %.</value></data>
+  <data name="Quality.InvalidAssessmentDate" xml:space="preserve"><value>La fecha de evaluación es obligatoria.</value></data>
+  <data name="Quality.InvalidBaseWeight" xml:space="preserve"><value>El peso base requiere un valor y una unidad.</value></data>
+  <data name="Quality.InvalidIndicator" xml:space="preserve"><value>El indicador debe ser WHOLE_GRAIN_PERCENTAGE, BROKEN_GRAIN_PERCENTAGE o YIELD_PERCENTAGE.</value></data>
+  <data name="Quality.InvalidPercentage" xml:space="preserve"><value>Un porcentaje debe estar entre 0 y 100.</value></data>
+  <data name="Quality.InvalidQualityRange" xml:space="preserve"><value>El mínimo esperado no puede superar al máximo esperado.</value></data>
+  <data name="Quality.InvalidWasteDate" xml:space="preserve"><value>La fecha del registro de merma es obligatoria.</value></data>
+  <data name="Quality.MeasurementsRequired" xml:space="preserve"><value>Una evaluación de calidad requiere al menos una medición.</value></data>
+  <data name="Quality.ProductionBatchNotFound" xml:space="preserve"><value>No se encontró el lote de producción referenciado.</value></data>
+  <data name="Quality.ProductionRecordNotFound" xml:space="preserve"><value>No se encontró el registro de producción referenciado.</value></data>
+  <data name="Quality.WasteExceedsBaseWeight" xml:space="preserve"><value>La merma no puede superar el peso base.</value></data>
+  <data name="Quality.WasteRecordNotFound" xml:space="preserve"><value>No se encontró el registro de merma.</value></data>
+  <data name="Shared.Conflict" xml:space="preserve"><value>La operación entra en conflicto con datos existentes.</value></data>
+  <data name="Shared.InvalidDateRange" xml:space="preserve"><value>La fecha final no puede ser anterior a la fecha inicial.</value></data>
+  <data name="Shared.InvalidInput" xml:space="preserve"><value>Los datos enviados son inválidos o están incompletos.</value></data>
+  <data name="Shared.InvalidMeasurementUnit" xml:space="preserve"><value>La unidad debe ser KILOGRAM o METRIC_TON.</value></data>
+  <data name="Shared.InvalidWeight" xml:space="preserve"><value>El peso debe ser mayor que cero.</value></data>
+  <data name="Shared.OperationCancelled" xml:space="preserve"><value>La operación fue cancelada.</value></data>
+  <data name="Shared.Unauthorized" xml:space="preserve"><value>Se requiere un token de acceso válido.</value></data>
+  <data name="Shared.UnexpectedError" xml:space="preserve"><value>Ocurrió un error inesperado.</value></data>
+</root>

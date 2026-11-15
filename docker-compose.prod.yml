@@ -1,0 +1,14 @@
+services:
+  api:
+    image: molinex-backend-appweb:1.0.0
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: molinex-backend-appweb-prod
+    ports:
+      - "8080:8080"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      ConnectionStrings__DefaultConnection: server=${DATABASE_URL:?Set DATABASE_URL};port=${DATABASE_PORT:-3306};user=${DATABASE_USER:?Set DATABASE_USER};password=${DATABASE_PASSWORD:?Set DATABASE_PASSWORD};database=${DATABASE_NAME:?Set DATABASE_NAME};SslMode=Required
+      TokenSettings__Secret: ${TOKEN_SETTINGS_SECRET:?Set TOKEN_SETTINGS_SECRET}
+    restart: on-failure:5

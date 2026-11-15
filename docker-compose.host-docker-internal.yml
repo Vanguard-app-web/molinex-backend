@@ -1,0 +1,16 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: molinex-backend:local
+    container_name: molinex-backend-local
+    ports:
+      - "8080:8080"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings__DefaultConnection: server=host.docker.internal.ipv4;port=3306;user=${DATABASE_USER};password=${DATABASE_PASSWORD};database=${DATABASE_NAME}
+      TokenSettings__Secret: ${TOKEN_SETTINGS_SECRET}
+    extra_hosts:
+      - "host.docker.internal.ipv4:host-gateway"
+    restart: on-failure:5
